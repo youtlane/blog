@@ -17,8 +17,6 @@ function App() {
             <Route path="/about" element={<AboutPage/>}/>
             <Route path="/articles" element={<ArticleListPage/>}/>
             <Route path="/articles/:articleId" element={<ArticlePage/>}/>
-            
-            
           </Routes>
         </div>
       </div>
