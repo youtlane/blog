@@ -3,14 +3,15 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ArticleListPage from "./pages/ArticleListPage";
 import ArticlePage from "./pages/ArticlePage";
+import NavBar from "./NavBar";
 
 
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App flex flex-col items-center">
-        <h1 className="text-red-600"> My Awesome blog</h1>
+      <div className="App font-custom text-lg">
+        <NavBar/>
         <div>
           <Routes>
             <Route path="/" element={<HomePage/>}/>
