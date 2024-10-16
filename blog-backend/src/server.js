@@ -27,7 +27,7 @@ app.put('/api/articles/:name/upvote',(req , res) =>{
         article.upvotes += 1;
         res.send(`the ${name} article now has ${article.upvotes}`);
     }else{
-        res.send('that article doesn\'t exist');
+        res.send('that article doesn\'t exist ');
     }
     
 
